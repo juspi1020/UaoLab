@@ -1,0 +1,67 @@
+.o-body {
+    justify-content: center;
+    font-family: 'Roboto';
+    background-image: url(http://www.desktopwallpaperhd.net/wallpapers/5/5/wallpapers-composite-digital-animated-art-media-desktops-53621.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.o-main {
+    display: flex;
+    background-color: white;
+    padding: 3em;
+    margin-left: 20em;
+    margin-right: 20em;
+    margin-top: 12em;
+    border-radius: 7px;
+    border: 2px groove gray;
+    flex-direction: column;
+}
+
+.o-logo {
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.o-container {
+    width: 100%;
+}
+
+.o-imputbox {
+    background-color: rgba(220, 242, 255, 1);
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 0.2rem;
+    border: 1px solid rgba(97, 97, 97, 1);
+    margin: 0.2em;
+    box-shadow: 0px 0px 2px 0.2px rgba(0, 0, 0, 0.75);
+}
+
+#o-send {
+    background-color: red;
+    box-shadow: 0px 0px 2px 0.2px rgba(0, 0, 0, 0.75);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 0.2em;
+}
+
+.o-jcenter {
+    display: flex;
+    justify-content: center;
+}
+
+.o-text {
+    font-weight: 100;
+}

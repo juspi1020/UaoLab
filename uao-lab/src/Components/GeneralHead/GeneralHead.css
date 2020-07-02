@@ -1,0 +1,32 @@
+.o-headbody{
+    padding-bottom:1em;
+    margin: unset;
+
+}
+
+.o-student{
+    display: flex;
+    justify-content: flex-end;
+}
+.o-headuao{
+    background-color: #96020C;
+    padding: 1em;
+    font-size: 1.5em;
+    margin: unset;
+    display: flex;
+    color: white;
+}
+.o-subheaduao{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start ;
+    margin: unset;
+    padding-bottom: 2em;
+    color: white;
+    background-color: #E30613;
+}
+.o-line{
+    padding: 0.1em;
+    background-color: white;
+    width: 100em;
+}
